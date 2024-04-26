@@ -80,7 +80,6 @@ while True:
         myobj = {'patient_name': name,'patient_contact':phone,'time':time}
         print(myobj)
         x = requests.post(url, params=myobj)
-        print(x.text)
         res = x.text
         engine.say(res)
         engine.runAndWait()
