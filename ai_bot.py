@@ -81,7 +81,7 @@ while True:
         print(myobj)
         x = requests.post(url, params=myobj)
         print(x.text)
-        res = x
+        res = x.text
         engine.say(res)
         engine.runAndWait()
         print(res)
