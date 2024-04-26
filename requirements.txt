@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pyttsx3
+SpeechRecognition
+pyaudio
+py3-tts
